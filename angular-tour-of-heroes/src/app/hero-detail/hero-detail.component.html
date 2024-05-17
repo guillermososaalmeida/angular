@@ -1,0 +1,8 @@
+<div *ngIf="hero" class="details-section">
+  <h2>{{ hero.name | uppercase }} stats</h2>
+  <div>ID: {{ hero.id }}</div>
+  <div class="name-modifier">
+    <label for="hero-name">Change their name: </label>
+    <input id="hero-name" [(ngModel)]="hero.name" placeholder="name" />
+  </div>
+</div>
