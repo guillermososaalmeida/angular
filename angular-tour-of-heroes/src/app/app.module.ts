@@ -8,7 +8,7 @@ import { MessagesComponent } from './messages/messages.component';
 @NgModule({
   declarations: [HeroesComponent, HeroDetailComponent, MessagesComponent],
   imports: [FormsModule, CommonModule],
-  exports: [HeroesComponent],
+  exports: [HeroesComponent, MessagesComponent],
   providers: [],
 })
 export class AppModule {}
