@@ -5,4 +5,5 @@
     <label for="hero-name">Change their name: </label>
     <input id="hero-name" [(ngModel)]="hero.name" placeholder="name" />
   </div>
+  <button type="button" (click)="goBack()">{{ "return" | uppercase }}</button>
 </div>

@@ -8,6 +8,18 @@
   margin: 0.5rem auto;
   font-weight: 500;
 
+  button {
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #7e0f05;
+    color: #ded9e2;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0.5rem auto;
+    font-family: "Roboto";
+  }
+
   h2 {
     margin: 0.5rem auto;
     font-size: medium;
@@ -15,9 +27,8 @@
     width: max-content;
     color: #ded9e2;
     border-radius: 10px;
-    padding: 0.2rem;
+    padding: 0.5rem;
     text-align: center;
-    font-family: "Roboto";
   }
   .name-modifier {
     padding: 0.3rem 0;
