@@ -1,4 +1,6 @@
 .details-section {
+  border-left: 12px solid #a80000;
+
   background-color: #ded9e2;
   border-radius: 10px;
   width: 60%;
